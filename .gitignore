@@ -1,0 +1,20 @@
+# OpenClaw sensitive data
+.local-config.json
+.local-state.json
+credentials/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backup files
+*.bak
+*.orig
+*.rej
