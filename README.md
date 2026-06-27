@@ -1,6 +1,6 @@
-# Public OpenClaw Config Skill
+# OpenClaw Config Skill
 
-A sanitized, public-ready OpenClaw skill for managing the OpenClaw CLI tool.
+A public, ready-to-fork OpenClaw skill template for managing the OpenClaw CLI tool.
 
 ## What's Inside
 
@@ -43,12 +43,12 @@ openclaw cron add --name "openclaw-skill-update" \
   --system-event "OpenClaw Skill Update"
 ```
 
-## For Contributors
+## Customizing for Your Setup
 
-This skill is a sanitized fork of a private skill. All real credentials have been replaced with placeholders:
+All placeholders below are the defaults — search-and-replace them with your own values before deploying:
 
-| Original | Placeholder |
-|----------|-------------|
+| Field | Default placeholder |
+|-------|---------------------|
 | Phone numbers | `+1234567890` |
 | Gateway token | `<YOUR_GATEWAY_TOKEN>` |
 | API keys | `$TOKEN`, `$API_KEY` |
